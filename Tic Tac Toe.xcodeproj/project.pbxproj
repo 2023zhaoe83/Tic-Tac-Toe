@@ -13,6 +13,7 @@
 		A19C991424D08DB700B660A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19C991224D08DB700B660A5 /* Main.storyboard */; };
 		A19C991624D08DB800B660A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19C991524D08DB800B660A5 /* Assets.xcassets */; };
 		A19C991924D08DB800B660A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19C991724D08DB800B660A5 /* LaunchScreen.storyboard */; };
+		A19C992124D08F5E00B660A5 /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C992024D08F5E00B660A5 /* GridLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A19C991524D08DB800B660A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A19C991824D08DB800B660A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A19C991A24D08DB800B660A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19C992024D08F5E00B660A5 /* GridLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				A19C990C24D08DB700B660A5 /* AppDelegate.swift */,
 				A19C990E24D08DB700B660A5 /* SceneDelegate.swift */,
-				A19C991024D08DB700B660A5 /* ViewController.swift */,
 				A19C991224D08DB700B660A5 /* Main.storyboard */,
+				A19C991024D08DB700B660A5 /* ViewController.swift */,
+				A19C992024D08F5E00B660A5 /* GridLabel.swift */,
 				A19C991524D08DB800B660A5 /* Assets.xcassets */,
 				A19C991724D08DB800B660A5 /* LaunchScreen.storyboard */,
 				A19C991A24D08DB800B660A5 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19C992124D08F5E00B660A5 /* GridLabel.swift in Sources */,
 				A19C991124D08DB700B660A5 /* ViewController.swift in Sources */,
 				A19C990D24D08DB700B660A5 /* AppDelegate.swift in Sources */,
 				A19C990F24D08DB700B660A5 /* SceneDelegate.swift in Sources */,
